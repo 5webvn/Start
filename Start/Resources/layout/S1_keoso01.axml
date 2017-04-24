@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/keoso01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="3%"
+        percent:layout_marginLeftPercent="2%" />
+    <ImageButton
+        android:id="@+id/somot"
+        android:scaleType="centerInside"
+        android:background="@drawable/mot"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="68%" />
+    <ImageButton
+        android:id="@+id/sohai"
+        android:scaleType="centerInside"
+        android:background="@drawable/hai"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="80%" />
+    <ImageButton
+        android:id="@+id/sonam"
+        android:scaleType="centerInside"
+        android:background="@drawable/nam"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="92%" />
+    <ImageButton
+        android:id="@+id/sotam"
+        android:scaleType="centerInside"
+        android:background="@drawable/tam"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="82%"
+        percent:layout_marginLeftPercent="74%" />
+    <ImageButton
+        android:id="@+id/sochin"
+        android:scaleType="centerInside"
+        android:background="@drawable/chin"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="82%"
+        percent:layout_marginLeftPercent="87%" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/animated_android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@anim/animate_android"
+        android:layout_centerVertical="true" />
+    <ImageButton
+        android:id="@+id/ivnha"
+        android:scaleType="centerInside"
+        android:background="@drawable/nha"
+        percent:layout_widthPercent="30%"
+        percent:layout_heightPercent="30%"
+        percent:layout_marginTopPercent="5%"
+        percent:layout_marginLeftPercent="20%" />
+    <ImageButton
+        android:id="@+id/ivvuon"
+        android:scaleType="centerInside"
+        android:background="@drawable/vuon"
+        percent:layout_widthPercent="35%"
+        percent:layout_heightPercent="30%"
+        percent:layout_marginTopPercent="65%"
+        percent:layout_marginLeftPercent="10%" />
+    <ImageButton
+        android:id="@+id/ivrung"
+        android:scaleType="centerInside"
+        android:background="@drawable/rung"
+        percent:layout_widthPercent="35%"
+        percent:layout_heightPercent="30%"
+        percent:layout_marginTopPercent="65%"
+        percent:layout_marginLeftPercent="55%" />
+    <ImageButton
+        android:id="@+id/ivkhobau"
+        android:scaleType="centerInside"
+        android:background="@drawable/khobau"
+        percent:layout_widthPercent="20%"
+        percent:layout_heightPercent="30%"
+        percent:layout_marginTopPercent="5%"
+        percent:layout_marginLeftPercent="65%" />
+    <ImageButton
+        android:id="@+id/ivtiep"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_tiep"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="18%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="85%" />
+</android.support.percent.PercentRelativeLayout>

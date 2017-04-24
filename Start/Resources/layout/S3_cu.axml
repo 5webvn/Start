@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgCaoThap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgcu"
+        android:scaleType="centerInside"
+        android:background="@drawable/cu"
+        percent:layout_widthPercent="20%"
+        percent:layout_heightPercent="40%"
+        percent:layout_marginTopPercent="20%"
+        percent:layout_marginLeftPercent="50%" />
+    <ImageView
+        android:id="@+id/imgtaj"
+        android:scaleType="centerInside"
+        android:background="@drawable/taj3"
+        percent:layout_widthPercent="25%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="40%"
+        percent:layout_marginLeftPercent="10%" />
+    <ImageButton
+        android:id="@+id/ivtiep"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_tiep"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="18%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="85%" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sach"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/ivtiep"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_play"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="18%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="88%" />
+    <ImageView
+        android:id="@+id/it1"
+        android:scaleType="centerInside"
+        android:background="@drawable/haicam"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="25%"
+        percent:layout_marginLeftPercent="53%" />
+    <ImageView
+        android:id="@+id/it2"
+        android:scaleType="centerInside"
+        android:background="@drawable/saudau"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="50%"
+        percent:layout_marginTopPercent="25%"
+        percent:layout_marginLeftPercent="8%" />
+    <ImageView
+        android:id="@+id/nhieu1"
+        android:scaleType="centerInside"
+        android:background="@drawable/haicam"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="25%"
+        percent:layout_marginLeftPercent="8%" />
+    <ImageView
+        android:id="@+id/nhieu2"
+        android:scaleType="centerInside"
+        android:background="@drawable/bonchuoi"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="25%"
+        percent:layout_marginLeftPercent="53%" />
+    <ImageView
+        android:id="@+id/bang1"
+        android:scaleType="centerInside"
+        android:background="@drawable/bontao"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="75%"
+        percent:layout_marginTopPercent="10%"
+        percent:layout_marginLeftPercent="8%" />
+    <ImageView
+        android:id="@+id/bang2"
+        android:scaleType="centerInside"
+        android:background="@drawable/bonchuoi"
+        percent:layout_widthPercent="40%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="25%"
+        percent:layout_marginLeftPercent="53%" />
+</android.support.percent.PercentRelativeLayout>

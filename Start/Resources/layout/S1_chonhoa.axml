@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgtrongnha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="3%"
+        percent:layout_marginLeftPercent="2%" />
+    <ImageButton
+        android:id="@+id/hoa2"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa2"
+        percent:layout_widthPercent="15%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="2%"
+        percent:layout_marginLeftPercent="15%" />
+    <ImageButton
+        android:id="@+id/hoa4"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa4"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="2%"
+        percent:layout_marginLeftPercent="40%" />
+    <ImageButton
+        android:id="@+id/hoa3"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa3"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="2%"
+        percent:layout_marginLeftPercent="65%" />
+    <ImageButton
+        android:id="@+id/hoa10"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa10"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="2%" />
+    <ImageButton
+        android:id="@+id/hoa6"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa6"
+        percent:layout_widthPercent="15%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="27%" />
+    <ImageButton
+        android:id="@+id/hoa7"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa7"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="52%" />
+    <ImageButton
+        android:id="@+id/hoa1"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa1"
+        percent:layout_widthPercent="11%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="80%" />
+    <ImageButton
+        android:id="@+id/hoa5"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa5"
+        percent:layout_widthPercent="15%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="62%"
+        percent:layout_marginLeftPercent="15%" />
+    <ImageButton
+        android:id="@+id/hoa8"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa8"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="62%"
+        percent:layout_marginLeftPercent="40%" />
+    <ImageButton
+        android:id="@+id/hoa9"
+        android:scaleType="centerInside"
+        android:background="@drawable/hoa9"
+        percent:layout_widthPercent="18%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="62%"
+        percent:layout_marginLeftPercent="65%" />
+</android.support.percent.PercentRelativeLayout>

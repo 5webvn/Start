@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mhc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgplay"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_play"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="30%"
+        percent:layout_marginLeftPercent="2.5%" />
+    <ImageButton
+        android:id="@+id/imgsetting"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_cd"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="47%"
+        percent:layout_marginLeftPercent="2.5%" />
+    <ImageButton
+        android:id="@+id/imghd"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_hd"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="64%"
+        percent:layout_marginLeftPercent="2.5%" />
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="81%"
+        percent:layout_marginLeftPercent="2.5%" />
+</android.support.percent.PercentRelativeLayout>

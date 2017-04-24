@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/keoso03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="3%"
+        percent:layout_marginLeftPercent="2%" />
+    <ImageView
+        android:id="@+id/sosau"
+        android:scaleType="centerInside"
+        android:background="@drawable/sau"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="68%" />
+    <ImageView
+        android:id="@+id/soba"
+        android:scaleType="centerInside"
+        android:background="@drawable/ba"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="80%" />
+    <ImageView
+        android:id="@+id/sobay"
+        android:scaleType="centerInside"
+        android:background="@drawable/bay"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="66%"
+        percent:layout_marginLeftPercent="92%" />
+    <ImageView
+        android:id="@+id/somot"
+        android:scaleType="centerInside"
+        android:background="@drawable/mot"
+        percent:layout_widthPercent="6%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="82%"
+        percent:layout_marginLeftPercent="74%" />
+    <ImageView
+        android:id="@+id/somuoi"
+        android:scaleType="centerInside"
+        android:background="@drawable/muoi"
+        percent:layout_widthPercent="8%"
+        percent:layout_heightPercent="16%"
+        percent:layout_marginTopPercent="82%"
+        percent:layout_marginLeftPercent="85%" />
+</android.support.percent.PercentRelativeLayout>

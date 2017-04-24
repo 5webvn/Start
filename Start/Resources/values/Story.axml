@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/ivtiep"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_tiep"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="85%" />
+    <ImageView
+        android:id="@+id/animated_android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@anim/animate_android"
+        android:layout_centerVertical="true" />
+</android.support.percent.PercentRelativeLayout>

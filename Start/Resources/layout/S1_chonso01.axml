@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgtrongnha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="3%"
+        percent:layout_marginLeftPercent="2%" />
+    <ImageButton
+        android:id="@+id/dia1"
+        android:scaleType="centerInside"
+        android:background="@drawable/diamot"
+        percent:layout_widthPercent="21%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="2%"
+        percent:layout_marginLeftPercent="25%" />
+    <ImageButton
+        android:id="@+id/dia2"
+        android:scaleType="centerInside"
+        android:background="@drawable/diahai"
+        percent:layout_widthPercent="21%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="2%"
+        percent:layout_marginLeftPercent="60%" />
+    <ImageButton
+        android:id="@+id/dia3"
+        android:scaleType="centerInside"
+        android:background="@drawable/diaba"
+        percent:layout_widthPercent="21%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="5%" />
+    <ImageButton
+        android:id="@+id/dia4"
+        android:scaleType="centerInside"
+        android:background="@drawable/diabon"
+        percent:layout_widthPercent="21%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="42%" />
+    <ImageButton
+        android:id="@+id/dia5"
+        android:scaleType="centerInside"
+        android:background="@drawable/dianam"
+        percent:layout_widthPercent="21%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="32%"
+        percent:layout_marginLeftPercent="77%" />
+    <ImageButton
+        android:id="@+id/somot"
+        android:scaleType="centerInside"
+        android:background="@drawable/mot"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="24%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="10%" />
+    <ImageButton
+        android:id="@+id/sohai"
+        android:scaleType="centerInside"
+        android:background="@drawable/hai"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="24%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="25%" />
+    <ImageButton
+        android:id="@+id/soba"
+        android:scaleType="centerInside"
+        android:background="@drawable/ba"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="24%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="40%" />
+    <ImageButton
+        android:id="@+id/sobon"
+        android:scaleType="centerInside"
+        android:background="@drawable/bon"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="24%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="55%" />
+    <ImageButton
+        android:id="@+id/sonam"
+        android:scaleType="centerInside"
+        android:background="@drawable/nam"
+        percent:layout_widthPercent="10%"
+        percent:layout_heightPercent="24%"
+        percent:layout_marginTopPercent="75%"
+        percent:layout_marginLeftPercent="70%" />
+</android.support.percent.PercentRelativeLayout>

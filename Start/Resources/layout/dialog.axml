@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="15px"
+    android:minHeight="15px"
+    android:background="@android:color/holo_blue_dark">
+    <ImageView
+        android:id="@+id/icon"
+        android:scaleType="centerInside"
+        android:background="@drawable/Icon"
+        percent:layout_widthPercent="20%"
+        percent:layout_heightPercent="35%"
+        percent:layout_marginTopPercent="55%"
+        percent:layout_marginLeftPercent="40%" />
+    <ImageView
+        android:id="@+id/basao"
+        android:scaleType="centerInside"
+        android:background="@drawable/baSao"
+        percent:layout_widthPercent="90%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="5%"
+        percent:layout_marginLeftPercent="5%" />
+    <ImageButton
+        android:id="@+id/choilai"
+        android:scaleType="centerInside"
+        android:background="@drawable/choilai"
+        percent:layout_widthPercent="30%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="65%"
+        percent:layout_marginLeftPercent="5%" />
+    <ImageButton
+        android:id="@+id/quaman"
+        android:scaleType="centerInside"
+        android:background="@drawable/quaman"
+        percent:layout_widthPercent="30%"
+        percent:layout_heightPercent="45%"
+        percent:layout_marginTopPercent="60%"
+        percent:layout_marginLeftPercent="70%" />
+</android.support.percent.PercentRelativeLayout>

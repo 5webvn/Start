@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:percent="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mh2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imgexit"
+        android:scaleType="centerInside"
+        android:background="@drawable/btn_rt"
+        percent:layout_widthPercent="9.7%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="81%"
+        percent:layout_marginLeftPercent="2.5%" />
+    <ImageButton
+        android:id="@+id/camax"
+        android:scaleType="centerInside"
+        android:background="@drawable/Casto"
+        percent:layout_widthPercent="14%"
+        percent:layout_heightPercent="23%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="25%"
+        android:layout_marginRight="0.0dp" />
+    <ImageButton
+        android:id="@+id/camin1"
+        android:scaleType="centerInside"
+        android:background="@drawable/Casto"
+        percent:layout_widthPercent="8%"
+        percent:layout_heightPercent="12%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="43%" />
+    <ImageButton
+        android:id="@+id/cammin2"
+        android:scaleType="centerInside"
+        android:background="@drawable/Casto"
+        percent:layout_widthPercent="5%"
+        percent:layout_heightPercent="8%"
+        percent:layout_marginTopPercent="63%"
+        percent:layout_marginLeftPercent="60%" />
+    <ImageButton
+        android:id="@+id/camax1"
+        android:scaleType="centerInside"
+        android:background="@drawable/Casto"
+        percent:layout_widthPercent="8%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="65%"
+        percent:layout_marginLeftPercent="70%" />
+    <ImageButton
+        android:id="@+id/Nammax"
+        android:scaleType="centerInside"
+        android:background="@drawable/NamTo"
+        percent:layout_widthPercent="8%"
+        percent:layout_heightPercent="15%"
+        percent:layout_marginTopPercent="70%"
+        percent:layout_marginLeftPercent="90%" />
+    <ImageButton
+        android:id="@+id/Nammax1"
+        android:scaleType="centerInside"
+        android:background="@drawable/NamTo"
+        percent:layout_widthPercent="12%"
+        percent:layout_heightPercent="19%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="70%" />
+    <ImageButton
+        android:id="@+id/Nammin"
+        android:scaleType="centerInside"
+        android:background="@drawable/NamTo"
+        percent:layout_widthPercent="5%"
+        percent:layout_heightPercent="13%"
+        percent:layout_marginTopPercent="80%"
+        percent:layout_marginLeftPercent="85%" />
+    <ImageButton
+        android:id="@+id/Nammin1"
+        android:scaleType="centerInside"
+        android:background="@drawable/NamTo"
+        percent:layout_widthPercent="8%"
+        percent:layout_heightPercent="13%"
+        percent:layout_marginTopPercent="70%"
+        percent:layout_marginLeftPercent="80%" />
+</android.support.percent.PercentRelativeLayout>
